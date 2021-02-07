@@ -1,0 +1,66 @@
+<img src=${data.meals[0].strMealThumb}>
+            <h5 id='detName'>${fnam}</h5>
+            <p>Ingredients</p>
+            <ul>
+            <li>${data.meals[0].strIngredient1}</li>
+            <li>${data.meals[0].strIngredient2}</li>
+            <li>${data.meals[0].strIngredient3}</li>
+            <li>${data.meals[0].strIngredient4}</li>
+            <li>${data.meals[0].strIngredient5}</li>
+            <li>${data.meals[0].strIngredient6}</li>
+            <li>${data.meals[0].strIngredient7}</li>
+            <li>${data.meals[0].strIngredient8}</li>
+            <li>${data.meals[0].strIngredient9}</li>
+            <li>${data.meals[0].strIngredient10}</li>
+            <li>${data.meals[0].strIngredient11}</li>
+            <li>${data.meals[0].strIngredient12}</li>
+            <li>${data.meals[0].strIngredient13}</li>
+            <li>${data.meals[0].strIngredient14}</li>
+            <li>${data.meals[0].strIngredient15}</li>
+            <li>${data.meals[0].strIngredient16}</li>
+            <li>${data.meals[0].strIngredient17}</li>
+            <li>${data.meals[0].strIngredient18}</li>
+            <li>${data.meals[0].strIngredient19}</li>
+            <li>${data.meals[0].strIngredient20}</li>
+            </ul>
+            <button class="btn btn-warning cls-btn" >close</button>
+
+
+
+
+
+
+
+
+            // const detinfo = `
+        //     <div class="card bg-warning mt-5" style="width: 18rem;">
+        //     <img src=${data.meals[0].strMealThumb} class="card-img-top" alt="...">
+        //     <div class="card-body">
+        //     <h5 id='detName'>${fnam}</h5>
+        //     <p>Ingredients</p>
+        //     <ul>
+        //     <li>${data.meals[0].strIngredient1}</li>
+        //     <li>${data.meals[0].strIngredient2}</li>
+        //     <li>${data.meals[0].strIngredient3}</li>
+        //     <li>${data.meals[0].strIngredient4}</li>
+        //     <li>${data.meals[0].strIngredient5}</li>
+        //     <li>${data.meals[0].strIngredient6}</li>
+        //     <li>${data.meals[0].strIngredient7}</li>
+        //     <li>${data.meals[0].strIngredient8}</li>
+        //     <li>${data.meals[0].strIngredient9}</li>
+        //     <li>${data.meals[0].strIngredient10}</li>
+        //     <li>${data.meals[0].strIngredient11}</li>
+        //     <li>${data.meals[0].strIngredient12}</li>
+        //     <li>${data.meals[0].strIngredient13}</li>
+        //     <li>${data.meals[0].strIngredient14}</li>
+        //     <li>${data.meals[0].strIngredient15}</li>
+        //     <li>${data.meals[0].strIngredient16}</li>
+        //     <li>${data.meals[0].strIngredient17}</li>
+        //     <li>${data.meals[0].strIngredient18}</li>
+        //     <li>${data.meals[0].strIngredient19}</li>
+        //     <li>${data.meals[0].strIngredient20}</li>
+        //     </ul>
+        //     </div>
+        //     <button class="btn btn-warning" onclick="out()">close</button>
+        //   </div>
+        //     `;

@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(255, 242, 141);
+}
+.foodDivDesign{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+
+}
+.foodName{
+    
+    margin: 20px;
+    color: black;
+    text-align: center;
+}
+#foods{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+.detdesign{
+    /* border: 1px solid ; */
+    padding: 20px;
+    width: 300px;
+}
+#detName{
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+ul li{
+    list-style: none;
+}
+#detailsoffood{
+    display: none;
+    margin-left: 35%;
+}
