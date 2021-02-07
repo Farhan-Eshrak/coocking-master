@@ -27,14 +27,16 @@ const fun = (name) => {
   fetch(url)
     .then((res) => res.json())
     .then((data) => {
-      const fnam = data.meals[0].strMeal;
-      document.getElementById("name").innerText = fnam;
+      const foodnameDetail = data.meals[0].strMeal;
+      document.getElementById("name").innerText = foodnameDetail;
       const dispFodDet = (fddet) => {
         const detcont = document.getElementById("ul");
         const detdiv = document.createElement("ul");
         detdiv.className = "detdesign";
         const imgdy = data.meals[0].strMealThumb;
         document.getElementById("dimg").src = imgdy;
+        console.log(data)
+        console.log(data.meals[0].strIngredient1)
         const detinfo = `
             <li>${data.meals[0].strIngredient1}</li>
             <li>${data.meals[0].strIngredient2}</li>
