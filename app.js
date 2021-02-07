@@ -1,8 +1,6 @@
-
-
-
 const apiBaseMealName = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
 function searchMeal() {
+  document.getElementById("foods").innerHTML = ''
   const mealValue = document.getElementById("mealNameInput").value;
   if(mealValue == ''){
     alert('error');
